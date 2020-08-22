@@ -1,0 +1,13 @@
+# no startup message
+startup_message off
+
+# scrollback buffer
+defscrollback 5000
+
+# auto detach when hangup
+autodetach on
+
+# visual bell
+vbell off
+
+hardstatus alwayslastline "%{=b}%{G} %{b}%w %=%{kG}%C%A %D,%d/%m/%y"
