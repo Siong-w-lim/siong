@@ -1,0 +1,26 @@
+"schemes":
+[
+        {
+            "background": "#1A1B2C",
+            "black": "#32344A",
+            "blue": "#7AA2F7",
+            "brightBlack": "#444B6A",
+            "brightBlue": "#7DA6FF",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#B9F27C",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#FF7A93",
+            "brightWhite": "#ACB0D0",
+            "brightYellow": "#FF9E64",
+            "cursorColor": "#01B3B3",
+            "cyan": "#449DAB",
+            "foreground": "#A9B1DC",
+            "green": "#9ECE6A",
+            "name": "Tokyo Night",
+            "purple": "#AD8EE6",
+            "red": "#F7768E",
+            "selectionBackground": "#28344A",
+            "white": "#787C99",
+            "yellow": "#E0AF68"
+        }
+]
