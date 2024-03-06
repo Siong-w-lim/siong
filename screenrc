@@ -10,10 +10,18 @@ autodetach on
 # visual bell
 vbell off
 
+# ctrl-alt right and left arrows switch between tabs.
+bindkey ^[[1;7D prev
+bindkey ^[[1;7C next
+
+# ctrl-alt right and left arrows switch between region.
+bindkey ^[[1;7A focus prev
+bindkey ^[[1;7B focus next
+
 # System status
 backtick 1 5 5 /bin/bash -c "free -h | awk 'NR==2{print \$4}'"
 backtick 2 5 5 /bin/bash -c "df -h | awk '/root/{print \$4}'"
 backtick 3 5 5 /bin/bash -c "df -h | awk '/dev\/sdb/{print \$4}'"
 backtick 4 5 5 /bin/bash -c "df -h | awk '/dev\/sdc/{print \$4}'"
 hardstatus alwayslastline
-hardstatus string " %-Lw%{.rw}%n %t%{-}%+Lw %=%{.dd}| %l | %1` | %2` %3` %4` "
+hardstatus string " %-Lw[%n %t]%+Lw %= |L:%l|M:%1`|D:%2` %3` %4` "
